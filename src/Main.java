@@ -10,6 +10,8 @@ public class Main {
             amountPayments += arr[i];
         }
         System.out.println("Сумма всех выплат за месяц: " + amountPayments);
+        double averrageSum = amountPayments/30;
+        System.out.println("Средняя сумма трат за месяц составила " + averrageSum+ " рублей ");
     }
 
     public static int[] generateRandomArray() {
@@ -23,6 +25,7 @@ public class Main {
         return arr;
 
     }
+
 
 }
 
