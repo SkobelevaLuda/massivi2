@@ -28,7 +28,15 @@ public class Main {
         }
         System.out.println(" Максимальная сумма трат за день составила " + max + " рублей ");
 
+        // задание 4.
+        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+
+        for (int a = reverseFullName.length - 1; a > 0; a--) {
+            System.out.print(reverseFullName[a]);
+        }
+
     }
+
 
     public static int[] generateRandomArray() {
 
